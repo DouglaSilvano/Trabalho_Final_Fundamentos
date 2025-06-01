@@ -19,8 +19,17 @@ import java.util.Scanner;
 public class Application {
     public static void main(String[] args) {
 
-        String opcao2;
-        int opcao1 = 0;
+        String opcao1;
+        int opcao0 = 0;
+        int contadorCase1 = 0;
+        int contadorCase2 = 0;
+        int contadorCase3 = 0;
+        int contadorCase4 = 0;
+        int contadorCase5 = 0;
+        int contadorCase6 = 0;
+        int contadorCase7 = 0;
+        int contadorCase8 = 0;
+        int contadorCase9 = 0;
         Scanner teclado = new Scanner(System.in);
 //        System.out.println("Informe como deseja começar:+" + "\n" +
 //                           "[1] Incluir terreno " + "\n" +
@@ -33,10 +42,10 @@ public class Application {
 //                           "[8] Alterar status de construção do terreno" + "\n" +
 //                           "[9] Mostrar a arrecadação mensal do condomínio" + "\n" +
 //                           "[10] Sair do programa" + "\n");
-//        opcao1 = teclado.nextInt();
+//        opcao0 = teclado.nextInt();
 
-        // tentei com while e não consegui while(opcao2!=(1||2||3||4||5||6||7||8||9||10)){}
-        while(opcao1!=10){
+        // tentei com while e não consegui while(opcao1!=(1||2||3||4||5||6||7||8||9||10)){}
+        while(opcao0!=10){
             System.out.println("Informe como deseja começar:" + "\n" +
                     "[1] Incluir terreno " + "\n" +
                     "[2] Remover terreno" + "\n" +
@@ -48,46 +57,51 @@ public class Application {
                     "[8] Alterar status de construção do terreno" + "\n" +
                     "[9] Mostrar a arrecadação mensal do condomínio" + "\n" +
                     "[10] Sair do programa" + "\n");
-            opcao1 = teclado.nextInt();
-            switch(opcao1) {
+            opcao0 = teclado.nextInt();
+            switch(opcao0) {
+
                 case 1:
-                    System.out.println("Voce selecionou a opcao2 1.");
+                    System.out.println("Voce selecionou a opcao 1.");
+                    contadorCase1 = contadorCase1 + 1;
+                    //Tentei fazer uma criação de objeto, mas acredito que tem que ser feito uma criação de array, porém como vamos fazer um array infinito?
+                    String proprietarioCase1 =  "proprietario"+ contadorCase1;
+//                    Proprietario proprietarioCase1 = new Proprietario();
                     System.out.println("Insira o nome do terreno: ");
-                    opcao2 = teclado.nextLine();
-                    opcao2 = teclado.nextLine();
+                    opcao1 = teclado.nextLine();
+                    opcao1 = teclado.nextLine();
                     break;
                 case 2:
-                    System.out.println("Voce selecionou a opcao2 2.");
+                    System.out.println("Voce selecionou a opcao 2.");
                     break;
                 case 3:
-                    System.out.println("Voce selecionou a opcao2 3.");
+                    System.out.println("Voce selecionou a opcao 3.");
                     break;
                 case 4:
-                    System.out.println("Voce selecionou a opcao2 4.");
+                    System.out.println("Voce selecionou a opcao 4.");
                     break;
                 case 5:
-                    System.out.println("Voce selecionou a opcao2 5.");
+                    System.out.println("Voce selecionou a opcao 5.");
                     break;
                 case 6:
-                    System.out.println("Voce selecionou a opcao2 6.");
+                    System.out.println("Voce selecionou a opcao 6.");
                     break;
                 case 7:
-                    System.out.println("Voce selecionou a opcao2 7.");
+                    System.out.println("Voce selecionou a opcao 7.");
                     break;
                 case 8:
-                    System.out.println("Voce selecionou a opcao2 8.");
+                    System.out.println("Voce selecionou a opcao 8.");
                     break;
                 case 9:
-                    System.out.println("Voce selecionou a opcao2 9.");
+                    System.out.println("Voce selecionou a opcao 9.");
                     break;
                 case 10:
-                    System.out.println("Voce selecionou a opcao2 10.");
+                    System.out.println("Voce selecionou a opcao 10.");
                     System.out.println("Saindo do programa.");
                     break;
                 default:
                     //Será necessário voltar isso aqui pro começo, estudar
                     //1) Seu programa deve executar enquanto a opção de saída (opção 10) não for informada.
-                    System.out.println("Informe uma opcao2 valida.");
+                    System.out.println("Informe uma opcao1 valida.");
                     break;
             }
         }
