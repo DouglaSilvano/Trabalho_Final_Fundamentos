@@ -99,8 +99,8 @@ public class Application {
                     System.out.println("Saindo do programa.");
                     break;
                 default:
-                    //Será necessário voltar isso aqui pro começo, estudar
-                    //1) Seu programa deve executar enquanto a opção de saída (opção 10) não for informada.
+                    //Será necessário voltar isso aqui pro começo, estudar (consegui fazer voltar com o while).
+                    //1) Seu programa deve executar enquanto a opção de saída (opção 10) não for informada (concluído).
                     System.out.println("Informe uma opcao1 valida.");
                     break;
             }
