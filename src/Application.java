@@ -19,60 +19,79 @@ import java.util.Scanner;
 public class Application {
     public static void main(String[] args) {
 
-        String opcao;
+        String opcao2;
+        int opcao1 = 0;
         Scanner teclado = new Scanner(System.in);
-        System.out.println("Informe como deseja começar:+" + "\n" +
-                           "[1] Incluir terreno " + "\n" +
-                           "[2] Remover terreno" + "\n" +
-                           "[3] Mostrar terrenos" + "\n" +
-                           "[4] Pesquisar e mostrar terreno por nome de proprietário" + "\n" +
-                           "[5] Mostrar terreno com menor área do condomínio" + "\n" +
-                           "[6] Mostrar terreno com a maior família" + "\n" +
-                           "[7] Alterar proprietário de terreno" + "\n" +
-                           "[8] Alterar status de construção do terreno" + "\n" +
-                           "[9] Mostrar a arrecadação mensal do condomínio" + "\n" +
-                           "[10] Sair do programa" + "\n");
-        opcao = teclado.nextLine();
+//        System.out.println("Informe como deseja começar:+" + "\n" +
+//                           "[1] Incluir terreno " + "\n" +
+//                           "[2] Remover terreno" + "\n" +
+//                           "[3] Mostrar terrenos" + "\n" +
+//                           "[4] Pesquisar e mostrar terreno por nome de proprietário" + "\n" +
+//                           "[5] Mostrar terreno com menor área do condomínio" + "\n" +
+//                           "[6] Mostrar terreno com a maior família" + "\n" +
+//                           "[7] Alterar proprietário de terreno" + "\n" +
+//                           "[8] Alterar status de construção do terreno" + "\n" +
+//                           "[9] Mostrar a arrecadação mensal do condomínio" + "\n" +
+//                           "[10] Sair do programa" + "\n");
+//        opcao1 = teclado.nextInt();
 
-        // tentei com while e não consegui while(opcao!=(1||2||3||4||5||6||7||8||9||10)){}
-
-        switch(opcao) {
-            case "1":
-                System.out.println("Voce selecionou a opcao 1.");
-                break;
-            case "2":
-                System.out.println("Voce selecionou a opcao 2.");
-                break;
-            case "3":
-                System.out.println("Voce selecionou a opcao 3.");
-                break;
-            case "4":
-                System.out.println("Voce selecionou a opcao 4.");
-                break;
-            case "5":
-                System.out.println("Voce selecionou a opcao 5.");
-                break;
-            case "6":
-                System.out.println("Voce selecionou a opcao 6.");
-                break;
-            case "7":
-                System.out.println("Voce selecionou a opcao 7.");
-                break;
-            case "8":
-                System.out.println("Voce selecionou a opcao 8.");
-                break;
-            case "9":
-                System.out.println("Voce selecionou a opcao 9.");
-                break;
-            case "10":
-                System.out.println("Voce selecionou a opcao 10.");
-                System.out.println("Saindo do programa.");
-                break;
-            default:
-                //Será necessário voltar isso aqui pro começo, estudar
-                //1) Seu programa deve executar enquanto a opção de saída (opção 10) não for informada.
-                System.out.println("Informe uma opcao valida.");
-                break;
+        // tentei com while e não consegui while(opcao2!=(1||2||3||4||5||6||7||8||9||10)){}
+        while(opcao1!=10){
+            System.out.println("Informe como deseja começar:" + "\n" +
+                    "[1] Incluir terreno " + "\n" +
+                    "[2] Remover terreno" + "\n" +
+                    "[3] Mostrar terrenos" + "\n" +
+                    "[4] Pesquisar e mostrar terreno por nome de proprietário" + "\n" +
+                    "[5] Mostrar terreno com menor área do condomínio" + "\n" +
+                    "[6] Mostrar terreno com a maior família" + "\n" +
+                    "[7] Alterar proprietário de terreno" + "\n" +
+                    "[8] Alterar status de construção do terreno" + "\n" +
+                    "[9] Mostrar a arrecadação mensal do condomínio" + "\n" +
+                    "[10] Sair do programa" + "\n");
+            opcao1 = teclado.nextInt();
+            switch(opcao1) {
+                case 1:
+                    System.out.println("Voce selecionou a opcao2 1.");
+                    System.out.println("Insira o nome do terreno: ");
+                    opcao2 = teclado.nextLine();
+                    opcao2 = teclado.nextLine();
+                    break;
+                case 2:
+                    System.out.println("Voce selecionou a opcao2 2.");
+                    break;
+                case 3:
+                    System.out.println("Voce selecionou a opcao2 3.");
+                    break;
+                case 4:
+                    System.out.println("Voce selecionou a opcao2 4.");
+                    break;
+                case 5:
+                    System.out.println("Voce selecionou a opcao2 5.");
+                    break;
+                case 6:
+                    System.out.println("Voce selecionou a opcao2 6.");
+                    break;
+                case 7:
+                    System.out.println("Voce selecionou a opcao2 7.");
+                    break;
+                case 8:
+                    System.out.println("Voce selecionou a opcao2 8.");
+                    break;
+                case 9:
+                    System.out.println("Voce selecionou a opcao2 9.");
+                    break;
+                case 10:
+                    System.out.println("Voce selecionou a opcao2 10.");
+                    System.out.println("Saindo do programa.");
+                    break;
+                default:
+                    //Será necessário voltar isso aqui pro começo, estudar
+                    //1) Seu programa deve executar enquanto a opção de saída (opção 10) não for informada.
+                    System.out.println("Informe uma opcao2 valida.");
+                    break;
+            }
         }
+
+
     }
 }
