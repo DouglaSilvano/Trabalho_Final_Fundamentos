@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 /**
  * Escreva uma descrição da classe Condominio aqui.
@@ -82,5 +83,16 @@ public class Terreno
     //método para calcular a área do terreno.
     public double CalcularArea(double base, double altura){
         return base*altura;
+    }
+
+    //metodo para ler os dados inseriveis do terreno
+    public static void lerNotas(double base, double altura, double valorMensal, Proprietario proprietario
+    , Scanner teclado) {
+        System.out.println("Digite o base do Terreno: ");
+        base = teclado.nextDouble();
+        System.out.println("Digite a altura do Terreno: ");
+        altura = teclado.nextDouble();
+        System.out.println("Digite o valor mensal do Terreno: ");
+        valorMensal = teclado.nextDouble();
     }
 }
