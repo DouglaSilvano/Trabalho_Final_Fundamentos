@@ -1,4 +1,4 @@
-package src;
+ 
 
 public class Proprietario {
     private String nome;
@@ -18,6 +18,7 @@ public class Proprietario {
     public double getQtdeMoradores(){
         return this.qtdeMoradores;
     }
+    
     public String getNome(){
         return this.nome;
     }
@@ -26,9 +27,11 @@ public class Proprietario {
     public void setQtdeMoradores(int qtdeMoradores){
         this.qtdeMoradores = qtdeMoradores;
     }
+    
     public void setNome(String nome){
         this.nome = nome;
     }
+    
     public String toString(int qtdeMoradores, String nome){
         return this.qtdeMoradores + "" + this.nome;
     }
