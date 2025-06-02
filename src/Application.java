@@ -1,4 +1,4 @@
-package src; /**
+  /**
  * 1) Seu programa deve executar enquanto a opção de saída (opção 10) não for informada.
  * 2) As opções 1 e 2 (Adicionar/Remover terreno) deve mostrar mensagem informando se a
  * inserção/remoção foi feita com sucesso ou se a inserção/remoção não pode ser efetuada.
@@ -42,7 +42,7 @@ public class Application {
 //                           "[8] Alterar status de construção do terreno" + "\n" +
 //                           "[9] Mostrar a arrecadação mensal do condomínio" + "\n" +
 //                           "[10] Sair do programa" + "\n");
-//        opcao0 = teclado.nextInt();
+                            //opcao0 = teclado.nextInt();
 
         // tentei com while e não consegui while(opcao1!=(1||2||3||4||5||6||7||8||9||10)){}
         while(opcao0!=10){
@@ -65,7 +65,7 @@ public class Application {
                     contadorCase1 = contadorCase1 + 1;
                     //Tentei fazer uma criação de objeto, mas acredito que tem que ser feito uma criação de array, porém como vamos fazer um array infinito?
                     String proprietarioCase1 =  "proprietario"+ contadorCase1;
-//                    Proprietario proprietarioCase1 = new Proprietario();
+                    //Proprietario proprietarioCase1 = new Proprietario();
                     System.out.println("Insira o nome do terreno: ");
                     opcao1 = teclado.nextLine();
                     opcao1 = teclado.nextLine();
@@ -105,7 +105,5 @@ public class Application {
                     break;
             }
         }
-
-
     }
 }
