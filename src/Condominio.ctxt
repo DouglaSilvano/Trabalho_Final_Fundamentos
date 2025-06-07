@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=Condominio
+comment0.text=\ 1-\ adicionarTerreno\ (insere\ um\ objeto\ terreno\ no\ vetor\ para\ isto,\ recebe\ o\ objeto\ terreno\ e\ retorna\r\n\ \ \ \ true\ se\ a\ inser\u00E7\u00E3o\ pode\ ser\ realizada\ ou\ false\ se\ a\ inser\u00E7\u00E3o\ n\u00E3o\ foi\ poss\u00EDvel);\r\n\ \ \ \ \r\n\ \ \ \ 3-\ buscarPosicao\ (recebe\ o\ terreno\ e\ retorna\ a\ posi\u00E7\u00E3o\ do\ vetor\ em\ que\ ele\ est\u00E1\ armazenado.\ Caso\r\n\ \ \ \ n\u00E3o\ esteja\ armazenado,\ retorna\ o\ valor\ -1);\r\n\ \ \ \ \r\n\ \ \ \ 5-\ buscarTerrenoPorCodigo\ (recebe\ o\ c\u00F3digo\ do\ terreno\ e\ retorna\ o\ terreno\ que\ cont\u00E9m\ o\ c\u00F3digo\ do\r\n\ \ \ \ terreno\ recebido);\r\n
+comment1.params=vetTerrenos
+comment1.target=Condominio(Terreno[])
+comment2.params=novoTerreno
+comment2.target=boolean\ adicionarTerreno(Terreno)
+comment3.params=TerrenoA
+comment3.target=int\ BuscarPosicao(Terreno)
+comment4.params=codTerreno
+comment4.target=Terreno\ buscarTerrenoPorCodigo(int)
+numComments=5

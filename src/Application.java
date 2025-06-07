@@ -18,7 +18,6 @@ import java.util.Scanner;
 
 public class Application {
     public static void main(String[] args) {
-
         String opcao1;
         int opcao0 = 0;
         int contadorCase1 = 0;
@@ -31,18 +30,18 @@ public class Application {
         int contadorCase8 = 0;
         int contadorCase9 = 0;
         Scanner teclado = new Scanner(System.in);
-//        System.out.println("Informe como deseja começar:+" + "\n" +
-//                           "[1] Incluir terreno " + "\n" +
-//                           "[2] Remover terreno" + "\n" +
-//                           "[3] Mostrar terrenos" + "\n" +
-//                           "[4] Pesquisar e mostrar terreno por nome de proprietário" + "\n" +
-//                           "[5] Mostrar terreno com menor área do condomínio" + "\n" +
-//                           "[6] Mostrar terreno com a maior família" + "\n" +
-//                           "[7] Alterar proprietário de terreno" + "\n" +
-//                           "[8] Alterar status de construção do terreno" + "\n" +
-//                           "[9] Mostrar a arrecadação mensal do condomínio" + "\n" +
-//                           "[10] Sair do programa" + "\n");
-                            //opcao0 = teclado.nextInt();
+        //System.out.println("Informe como deseja começar:+" + "\n" +
+        //"[1] Incluir terreno " + "\n" +
+        //"[2] Remover terreno" + "\n" +
+        //"[3] Mostrar terrenos" + "\n" +
+        //"[4] Pesquisar e mostrar terreno por nome de proprietário" + "\n" +
+        //"[5] Mostrar terreno com menor área do condomínio" + "\n" +
+        //"[6] Mostrar terreno com a maior família" + "\n" +
+        //"[7] Alterar proprietário de terreno" + "\n" +
+        //"[8] Alterar status de construção do terreno" + "\n" +
+        //"[9] Mostrar a arrecadação mensal do condomínio" + "\n" +
+        //"[10] Sair do programa" + "\n");
+        //opcao0 = teclado.nextInt();
 
         // tentei com while e não consegui while(opcao1!=(1||2||3||4||5||6||7||8||9||10)){}
         while(opcao0!=10){

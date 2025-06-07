@@ -38,42 +38,34 @@ public class Terreno
     public int getCodigo(){
         return this.codigo;
     }
-    
-    
+
     public double getBase(){
         return this.base;
     }
-    
     
     public double getAltura(){
         return this.altura;
     }
     
-    
     public void setValorMensal(double valorMensal){
         this.valorMensal = valorMensal;
     }
-    
     
     public double getValorMensal(){
         return this.valorMensal;
     }
     
-    
     public void setProprietario(Proprietario prop){
         this.proprietario = prop;
     }
-    
     
     public Proprietario getProprietario(){
         return this.proprietario;
     }
     
-    
     public void setConstrucao(boolean construcao){
         this.construcao = construcao;
     }
-    
     
     public boolean getConstrucao(){
         return this.construcao;
